@@ -11,8 +11,16 @@
     tools:context="com.example.zhangxin.mywidget.MainActivity">
 
     <com.example.shadertextview.RectTextView
+        android:id="@+id/rt_textview"
         android:text="Hello World!"
         android:padding="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <com.example.shadertextview.ShaderTextView
+        android:id="@+id/sd_textview"
+        android:layout_below="@id/rt_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hellowork!"
+    ></com.example.shadertextview.ShaderTextView>
 </RelativeLayout>
