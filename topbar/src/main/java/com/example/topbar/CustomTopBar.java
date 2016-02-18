@@ -3,6 +3,7 @@ package com.example.topbar;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
@@ -80,6 +81,7 @@ public class CustomTopBar extends RelativeLayout {
 
         params=new LayoutParams(LayoutParams.WRAP_CONTENT,LayoutParams.MATCH_PARENT);
         params.addRule(RelativeLayout.CENTER_IN_PARENT);
+        mTitleTextView.setGravity(Gravity.CENTER);
         addView(mTitleTextView,params);
 
         mLeftButton.setOnClickListener(new OnClickListener() {
