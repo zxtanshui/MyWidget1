@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.zhangxin.mywidget.MainActivity">
+    tools:context="com.example.zhangxin.mywidget.MainActivity"
+    android:orientation="vertical"
+>
 
     <include
     layout="@layout/topbar"
@@ -22,4 +24,9 @@
         android:layout_height="wrap_content"
         android:text="hellowork!"
     ></com.example.shadertextview.ShaderTextView>
+
+    <com.example.shadertextview.CircleProgressView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    ></com.example.shadertextview.CircleProgressView>
 </LinearLayout>
