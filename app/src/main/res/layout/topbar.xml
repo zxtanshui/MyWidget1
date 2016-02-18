@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+>
+<com.example.topbar.CustomTopBar
+
+    android:id="@+id/ctbar"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+
+    custom:mYleftText="返回"
+    custom:mYleftTextColor="@android:color/black"
+    custom:mYleftTextSize="14sp"
+    custom:mYleftBackground="@android:color/holo_green_dark"
+
+    custom:mYtitle="TopBar"
+    custom:mYtitleTextSize="18sp"
+    custom:mYtitleTextColor="@android:color/holo_red_light"
+
+    custom:mYrightText="完成"
+    custom:mYrightTextSize="14sp"
+    custom:mYrightBackground="@android:color/holo_purple"
+    custom:mYrightTextColor="@android:color/holo_orange_dark"
+
+    android:background="@android:color/background_light"
+>
+
+</com.example.topbar.CustomTopBar>
+</merge>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomTopBar">
+        <attr name="mYtitle" format="string"></attr>
+        <attr name="mYtitleTextSize" format="dimension"></attr>
+        <attr name="mYtitleTextColor" format="color"></attr>
+
+        <attr name="mYleftTextColor" format="color"></attr>
+        <attr name="mYleftBackground" format="color"></attr>
+        <attr name="mYleftTextSize" format="dimension"></attr>
+        <attr name="mYleftText" format="string"></attr>
+
+        <attr name="mYrightTextColor" format="color"></attr>
+        <attr name="mYrightBackground" format="color"></attr>
+        <attr name="mYrightTextSize" format="dimension"></attr>
+        <attr name="mYrightText" format="string"></attr>
+    </declare-styleable>
+</resources>
